@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- add font links here-->
+    <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Discord</title>
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="max-width-containers">
             <div id="links-container">
                 <div id="logo"></div>
                 <div id="links">
@@ -29,7 +30,7 @@
             <div class="maintext max-width-containers">
                 <div id="title"></div>
                 <div id="header-p"></div>
-                <div id="header-buttons">
+                <div class="buttons" id="header-buttons">
                     <div id="download-button"></div>
                     <div id="web-browse-button"></div>
                 </div>
@@ -37,35 +38,33 @@
         </div>
     </header>
     <main>
-        <div id="section_1">
-            <div class="max-width-containers first_section">
-                <div id="imagediv_1"></div>
-                <div id="textdiv_1">
-                    <div id="textdiv_1_title"></div>
-                    <div id="textdiv_1_paragraph"></div>
+        <section id="section_one">
+            <div class="max-width-containers">
+                <div class="imagediv"></div>
+                <div class="textdiv">
+                    <div class="textdiv_title"></div>
+                    <div class="textdiv_p"></div>
                 </div>
             </div>
-        </div>
-        <hr>
-        <div id="section_2">
-            <div class="max-width-containers second_section">
-                <div id="textdiv_2">
-                    <div id="textdiv_2_title"></div>
-                    <div id="textdiv_2_paragraph"></div>
-                </div>
-                <div id="imagediv_2"></div>
-            </div>
-        </div>
-        <hr>
-        <div id="section_3">
-            <div class="max-width-containers third_section">
-                <div id="imagediv_3"></div>
-                <div id="textdiv_3">
-                    <div id="textdiv_3_title"></div>
-                    <div id="textdiv_3_paragraph"></div>
+        </section>
+        <section id="section_two">
+            <div class="max-width-containers">
+                <div class="imagediv"></div>
+                <div class="textdiv">
+                    <div class="textdiv_title"></div>
+                    <div class="textdiv_p"></div>
                 </div>
             </div>
-        </div>
+        </section>
+        <section id="section_three">
+            <div class="max-width-containers">
+                <div class="imagediv"></div>
+                <div class="textdiv">
+                    <div class="textdiv_title"></div>
+                    <div class="textdiv_p"></div>
+                </div>
+            </div>
+        </section>
         <hr>
         <div id="section_4">
             <div class="max-width-containers fourth_section">
@@ -76,71 +75,72 @@
         </div>
         <div id="section_5">
             <div id="imagediv_5"></div>
-            <div id="download_button_2"></div>
+            <div class="buttons" id="download_button_2"></div>
         </div>
     </main>
     <footer>
-        <nav class="footer_nav">
-            <div class="lists">
-                <div class="footer_links contacts">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-                <div class="footer_links list_one">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-                <div class="footer_links list_two">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-                <div class="footer_links list_three">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-                <div class="footer_links list_four">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
+        <nav class="footer_nav max-width-containers">
+            <div id="footer-left">
+                <div class="footer-left-text">
                 </div>
             </div>
-            <hr class="inner_footer_hr">
-            <div class="footer_ending">
-                <div id="logo_2"></div>
-                <div id="signup"></div>
+            <div id="footer-right">
+                <div class="footer_link_list">
+                    <strong></strong>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="footer_link_list">
+                    <strong></strong>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="footer_link_list">
+                    <strong></strong>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="footer_link_list">
+                    <strong></strong>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
             </div>
         </nav>
+        <hr class="inner_footer_hr">
+        <div class="footer_ending max-width-containers">
+            <div id="logo_2"></div>
+            <div class="buttons" id="signup"></div>
+        </div>
     </footer>
 </body>
 </html>
