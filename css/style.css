@@ -300,6 +300,10 @@ footer nav #footer-left {
     font-size: 1.5em;
 }
 
+#social_logos {
+    margin-top: 20px;
+}
+
 footer nav #footer-right {
     flex-grow: 1;
     display: flex;
@@ -313,24 +317,30 @@ footer nav #footer-right .footer-link-list {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-  }
-  
+}
+
+h4 {
+    font-size: 0.8em;
+    color: #7087d7;
+    margin-left: 5px;
+    margin-bottom: 8px;
+}
 
 .footer_link_list {
-    background-color: #7087d7;
     height: auto;
     width: 15%;
+    min-width: 70px;
     gap: 20px;
-    /* test */
 }
+
 
 .footer_link_list ul li {
     list-style: none;
     height: 16px;
     width: auto;
-    background-color: white;
+    color: white;
     margin: 5px;
-    /* test */
+    font-size: 0.6em;
 }
 
 .footer_ending {
