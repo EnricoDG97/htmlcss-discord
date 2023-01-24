@@ -238,12 +238,16 @@ hr {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 20px;
+}
+
+#stars {
+    align-self:center;
 }
 
 #imagediv_5 h3 {
     font-weight: 700;
     font-size: 1.5em;
+    padding-bottom: 1em;
 }
 
 #download_button_2 button {
@@ -257,6 +261,7 @@ hr {
 
 footer {
     background-color: #23272a;
+
     height: 400px;
     /* test */
 }
@@ -269,9 +274,30 @@ footer nav.max-width-containers {
 }
 
 footer nav #footer-left {
-    width: 20%;
+    width: 25%;
     /* test */
-    background-color: #7087d7;
+    /* background-color: #7087d7; */
+}
+
+#ita_flag {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+#ita_flag img {
+    height: 15px;
+    vertical-align: text-bottom;
+}
+
+#ita_flag select {
+    color: white;
+    background-color: #23272a;
+}
+
+.footer-left-text strong {
+    color:  #7087d7;
+    font-size: 1.5em;
 }
 
 footer nav #footer-right {
