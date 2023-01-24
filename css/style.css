@@ -139,7 +139,7 @@ button {
 /* start first, second and third section */
 
 main section:nth-of-type(even) {
-    background-color: #c3c3c3;
+    background-color: #f6f6f6;
 }
 
 main section:nth-of-type(even) .max-width-containers {
@@ -172,7 +172,7 @@ h2 {
 .textdiv {
     width: 50%;
     height: 250px;
-   
+    justify-content: center;
     display: flex;
     flex-grow: 1;
     flex-direction: column;
@@ -180,13 +180,17 @@ h2 {
 }
 
 .textdiv_title {
-    background-color: white;
+    /* background-color: white; */
     flex-grow: 1;
     margin: 0px 20px;;
 }
 
+#section_two .max-width-containers .textdiv .textdiv_title {
+    padding-top: 80px;
+}
+
 .textdiv_p {
-    background-color: white;
+    /* background-color: white; */
     font-size: 0.8em;
     flex-grow: 1;
     margin: 0 20px;
