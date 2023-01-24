@@ -52,7 +52,7 @@ header {
     font-size: 0.7em;
 }
 
-button {
+* button {
     border-radius: 16px;
     padding: 8px 12px;
     border: none;
@@ -83,7 +83,6 @@ button {
 
 .maintext {
     height: 100%;
-    /* test */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,7 +91,6 @@ button {
 }
 
 #title {
-    /* background-color: #b13774; */
     height: 50px;
     width: 50%;
     min-width: 350px;
@@ -102,7 +100,6 @@ button {
 }
 
 #header-p {
-    /* background-color: #b13774; */
     height: auto;
     width: 70%;
     font-weight: 300;
@@ -115,8 +112,6 @@ button {
     height: 30px;
     width: auto;
     min-width: 400px;
-    /* background-color: #b13774; */
-    /* test */
     display: flex;
     justify-content: space-between;
 }
@@ -343,6 +338,10 @@ h4 {
     font-size: 0.6em;
 }
 
+hr.inner_footer_hr {
+    border: 1px solid rgba(114, 137, 218, 75%);
+}
+
 .footer_ending {
     display: flex;
     justify-content: space-between;
@@ -350,15 +349,25 @@ h4 {
 }
 
 #logo_2 {
-    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     width: 10%;
-    background-color: #7087d7;
-    /* test */
 }
 
-#signup {
+#logo_2 img {
+    max-width: 100%;
+}
+
+.footer_ending #signup {
     height: 30px;
     width: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#signup_button {
+    color: white;
     background-color: #7087d7;
-    /* test */
 }
