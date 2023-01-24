@@ -1,6 +1,6 @@
 header {
     background-color: #255ee9;
-    /* test */
+    min-width: 800px;
     text-align: center;
 }
 
@@ -78,6 +78,7 @@ button {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 70px;
+    min-width: 800px;
 }
 
 .maintext {
@@ -106,6 +107,7 @@ button {
     width: 70%;
     font-weight: 300;
     color: white;
+    min-width: 450px;
     /* test */
 }
 
@@ -201,9 +203,8 @@ hr {
 /* start fourth div-section */
 
 #section_4 {
-    height: 550px;
-    background-color: #c3c3c3;
-    /* test */
+    height: 800px;
+    background-color: #f6f6f6;
 }
 
 .fourth_section {
@@ -216,23 +217,15 @@ hr {
     /* test */
 }
 
-#imagediv_4 {
-    width: 80%;
-    height: 300px;
-    background-color: #292841;
-    /* test */
-}
-
 #textdiv_4_title {
-    width: 65%;
-    height: 50px;
-    background-color: #43b480;
+    font-weight: 700;
+    text-align: center;
 }
 
 #textdiv_4_paragraph {
-    width: 65%;
-    height: 100px;
-    background-color: #43b480;
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.8em;
 }
 
 /* finish fourth div-section */
