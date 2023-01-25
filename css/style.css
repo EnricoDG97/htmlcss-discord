@@ -79,9 +79,10 @@ header {
 /* second part of the header (out of nav bar) */
 
 .jumbo {
-    background-image: url(/img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: bottom;
     padding: 70px;
     min-width: 800px;
     width: 100%;
